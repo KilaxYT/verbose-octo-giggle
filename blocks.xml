@@ -1,0 +1,2553 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="B*[/2RM4yz*t*?5#yUaA">infractionType</variable>
+    <variable id="dTX.$fqc;}h8j%aaavI@">infractionUser</variable>
+    <variable id="0--#s!P!_-ZlcL~^Rz#.">appealable</variable>
+  </variables>
+  <block type="s4d_login" id="J!?J^ARNY_Nosv2l.{f*" x="0" y="0">
+    <value name="TOKEN">
+      <shadow type="text" id="3MCD$*WOJ,XFKl3hB`w|">
+        <field name="TEXT">MTI2MTY3MzM0MTYzOTU5NDA2OA.GnE3PT.tQXSjuhKZdpDFyQqwwBOu3Xe5So8GDMW5dm21M</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="s4d_on_connected" id="#FCBhlHa4zlC{=DAr0ho" x="0" y="106">
+    <statement name="STATEMENTS">
+      <block type="s4d_forever" id="@5OF|~=%Oy;;QPGX}H~n">
+        <statement name="STATEMENT">
+          <block type="s4d_set_bot_game" id="oA,KB?Ce]N[K4,eor5Cd">
+            <field name="OIFD">dnd</field>
+            <field name="TYPE">PLAYING</field>
+            <value name="GAME">
+              <block type="jg_text_remake_paragraph_quotes" id="Ux!bo/}I10U6W*QOc]O1">
+                <field name="TEXT">SCP: Site Roleplay</field>
+              </block>
+            </value>
+            <next>
+              <block type="s4d_wait_seconds" id="qbZs[;H[vJJi{a_{Y2#U">
+                <value name="TIME">
+                  <shadow type="math_number" id="2NxQ/rNy}_XSeUfzVXHM">
+                    <field name="NUM">60</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="s4d_set_bot_game" id="wlYeXP}453?S,xq]174]">
+                    <field name="OIFD">dnd</field>
+                    <field name="TYPE">PLAYING</field>
+                    <value name="GAME">
+                      <block type="jg_text_remake_paragraph_quotes" id="Yp7H=Mc$hESX]=-1EJpt">
+                        <field name="TEXT">SSRP:MC</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="s4d_wait_seconds" id="9`g|W$Y)D|5O@7,-.-z4">
+                        <value name="TIME">
+                          <shadow type="math_number" id="q6-eXq4,g8@8DEuw)S29">
+                            <field name="NUM">60</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="s4d_set_bot_game" id="HxDD;;Rv[7wJJ{|F[wQ+">
+                            <field name="OIFD">dnd</field>
+                            <field name="TYPE">PLAYING</field>
+                            <value name="GAME">
+                              <block type="jg_text_remake_paragraph_quotes" id="cs(^-TvKHTcKeQbT2}@{">
+                                <field name="TEXT">Roblox</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="s4d_wait_seconds" id="_k1OV~%M/C(J$wykEr~L">
+                                <value name="TIME">
+                                  <shadow type="math_number" id="kUgPUj|bb{y{k986dl#7">
+                                    <field name="NUM">60</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="s4d_set_bot_game" id="v}y#_WON9|rQuvZQzg6?">
+                                    <field name="OIFD">dnd</field>
+                                    <field name="TYPE">WATCHING</field>
+                                    <value name="GAME">
+                                      <block type="jg_text_remake_paragraph_quotes" id="4gx|{:J!X}e55]!i0Q4`">
+                                        <field name="TEXT">Cityous</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="s4d_wait_seconds" id="7?XT3!:@9#YvR8eQTu+-">
+                                        <value name="TIME">
+                                          <shadow type="math_number" id="tf?Qitn(a$nc~{?[]I!{">
+                                            <field name="NUM">60</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="s4d_set_bot_game" id="cyoS^``,Y_=1VMdz[yPV">
+                                            <field name="OIFD">dnd</field>
+                                            <field name="TYPE">WATCHING</field>
+                                            <value name="GAME">
+                                              <block type="jg_text_remake_paragraph_quotes" id="YzTL-v,C#?Lg$q8rK{b!">
+                                                <field name="TEXT">TMSD</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_wait_seconds" id="uIf=g!X=.RVPx}kAIgK8">
+                                                <value name="TIME">
+                                                  <shadow type="math_number" id="=Sh?5(ZkWPEZ7OK-er*~">
+                                                    <field name="NUM">60</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="s4d_set_bot_game" id="jhQ,[/4FEKWX*0|zdvD9">
+                                                    <field name="OIFD">dnd</field>
+                                                    <field name="TYPE">WATCHING</field>
+                                                    <value name="GAME">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="ur[TTjuU%yo~j-JP%MF{">
+                                                        <field name="TEXT">Red</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="s4d_wait_seconds" id="rOX9/O#uslv`*J_MTOUD">
+                                                        <value name="TIME">
+                                                          <shadow type="math_number" id="XK7.v1ncC|@yk2lpq8uv">
+                                                            <field name="NUM">60</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="ip{HIw%bj|^@%[|QlT7P" x="0" y="902">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="Glxu+W~0Nl.G.B!A][a6">
+        <value name="IF0">
+          <block type="logic_compare" id="%;G[X]{~U2WJ;A;f@VD6">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="R9[n]QY=$MnI9qX=RbCx"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="80%rT}Z7a[ScArgyt#1?">
+                <field name="TEXT">schedule</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_embed_create" id="D?V4_Rxd6-l/fw9j0ssh">
+            <field name="NAME">scheduledDeployment</field>
+            <statement name="THEN">
+              <block type="s4d_embed_set_color" id="gK+01Vjbmw!Nn|RczUy5">
+                <value name="COLOUR">
+                  <shadow type="colour_picker" id="bM,6`1aQz[Wlu4zMD_Kj">
+                    <field name="COLOUR">#ff9900</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="s4d_embed_set_title" id="+F?^AtrQ0kjN($EMR#[9">
+                    <value name="TITLE">
+                      <shadow type="text" id="6VwHtt1MAtf0?Xn~i7J~">
+                        <field name="TEXT">New Deployment!</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_embed_set_desc" id="m~w+8~0{#PQ4A0s.7G-*">
+                        <value name="DESC">
+                          <shadow type="text" id="R)@vGYIdFFbAI*L9L|33">
+                            <field name="TEXT">Some desc here...</field>
+                          </shadow>
+                          <block type="text_join" id="1j%~,v@UM{/7s.bH^/OE">
+                            <mutation items="6"></mutation>
+                            <value name="ADD0">
+                              <block type="interaction_author" id="YhL,hGTH;=}e.46d|VKX"></block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="jg_text_remake_paragraph_quotes" id=":8.ILn33GUkVE~/;|1mf">
+                                <field name="TEXT"> is hosting a deployment on &lt;t:</field>
+                              </block>
+                            </value>
+                            <value name="ADD2">
+                              <block type="options" id="O!j;rGqwi~+V/KA5*r.O">
+                                <mutation mode="Integer" type="null"></mutation>
+                                <field name="SEARCH">Integer</field>
+                                <value name="BOOLEAN">
+                                  <block type="jg_text_remake_paragraph_quotes" id="u/5kW*0O%?3f#*qi_w:W">
+                                    <field name="TEXT">epoch_time</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="ADD3">
+                              <block type="jg_text_remake_paragraph_quotes" id="0;|#-wOF1MsgVU:a2=ts">
+                                <field name="TEXT">:D&gt; at &lt;t:</field>
+                              </block>
+                            </value>
+                            <value name="ADD4">
+                              <block type="options" id="*tYCPbRi_Ivg8x+8Q/^I">
+                                <mutation mode="Integer" type="null"></mutation>
+                                <field name="SEARCH">Integer</field>
+                                <value name="BOOLEAN">
+                                  <block type="jg_text_remake_paragraph_quotes" id="=x*Sed{47|,6Gi%2yFWM">
+                                    <field name="TEXT">epoch_time</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="ADD5">
+                              <block type="jg_text_remake_paragraph_quotes" id="P4ZcmSc]V8Yi:8yP!uU{">
+                                <field name="TEXT">:t&gt;! Click the button below if you are going to join. Keep an eye on &lt;#1261703964349431948&gt; for more information regarding this deployment.</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="s4d_embed_set_footer" id="bv{O6nP2~/#00X6h)UwK">
+                            <value name="FOOTER">
+                              <shadow type="text" id="!w+vHdJ;hjmJ[-pYkJ~@">
+                                <field name="TEXT">Made with ♥ by 2fas</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="b_create" id=".Nz$v0E74fht)!j8XtLh">
+                                <mutation xmlns="http://www.w3.org/1999/xhtml" label="true" style="true" emoji="true" id="true"></mutation>
+                                <value name="B_NAME">
+                                  <shadow type="text" id="s}vAnD2YHS6b6o0:?T4t">
+                                    <field name="TEXT">attend</field>
+                                  </shadow>
+                                </value>
+                                <value name="LABEL">
+                                  <block type="jg_text_remake_paragraph_quotes" id="`=K}thDeE7jLIB5FWgs=">
+                                    <field name="TEXT">I'm Attending!</field>
+                                  </block>
+                                </value>
+                                <value name="STYLE">
+                                  <block type="b_style" id="]YPa|R_Zv+?{[/VMm^e/">
+                                    <field name="SEARCH_TYPE">'SUCCESS'</field>
+                                  </block>
+                                </value>
+                                <value name="EMOJI">
+                                  <block type="jg_text_remake_paragraph_quotes" id="$1I^ZW2x6:2Ct4(?}o,F">
+                                    <field name="TEXT">&lt;:ed_tick:1261682681469603943&gt;</field>
+                                  </block>
+                                </value>
+                                <value name="ID">
+                                  <block type="jg_text_remake_paragraph_quotes" id="nR/UD7B0,_5E{8riX[*v">
+                                    <field name="TEXT">attend</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="s4d_send_channel" id="kI1r8}R.Y=h8?n.h#o{|">
+                <value name="CONTENT">
+                  <block type="s4d_embed_send" id="A}]ma%58TW}.~`@4C2c/">
+                    <field name="NAME">scheduledDeployment</field>
+                  </block>
+                </value>
+                <value name="CHANNEL">
+                  <block type="s4d_get_channel" id="|V7nCXSZC-K)h0n8)Dry">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="Jx+hV]a[bR[TP(HSnF7n">
+                        <field name="TEXT">1261672923463155818</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_button" id="L_UhI7{l*[lRCF/BbJ:W" x="0" y="2062">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="~#z3iAW2dkaIK(6TMl8S">
+        <value name="IF0">
+          <block type="logic_compare" id="|%D*hDato{M:*(q8Iap8">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="button_id" id="~#4OD[V{XsI6d0ToRz!p"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="xOwPks:9jHE19bpgl#).">
+                <field name="TEXT">attend</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_add_role" id="Qm$u![_z0sl:%%_AvkRU">
+            <value name="ROLE">
+              <block type="s4d_get_role" id="N;^0D#IzRB!0Q-`sXC:f">
+                <field name="SEARCH_TYPE">ID</field>
+                <value name="VALUE">
+                  <block type="jg_text_remake_paragraph_quotes" id="F3^}ei`;})z/dYmIL4^t">
+                    <field name="TEXT">1261724615869464576</field>
+                  </block>
+                </value>
+                <value name="SERVER">
+                  <block type="button_guild" id="~3-S%9V@3R*GmEJ!bA4T"></block>
+                </value>
+              </block>
+            </value>
+            <value name="MEMBER">
+              <shadow type="s4d_message_member" id="mr:E2TI(exuqLLJ#Vcx-"></shadow>
+              <block type="button_author" id="{l4S_Gr2[J/.+x:#Ag--"></block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="pTmVw/b08H)|XvASn,[:" x="0" y="2442">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="S4($YwUiaM2hs4ZUn^4z">
+        <value name="IF0">
+          <block type="logic_compare" id="t(!zqqfc?azyfc$Zi`wh">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="a]YtEL9l?Uh$!UX!OLKC"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="~IXFx_wy_JSB7(^FJ3][">
+                <field name="TEXT">begin</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_embed_create" id="s/KQ!,Z,bKo-]reDQ}#v">
+            <field name="NAME">beginDeployment</field>
+            <statement name="THEN">
+              <block type="s4d_embed_set_color" id="1^6p)NPbSW=b8`}m=S_T">
+                <value name="COLOUR">
+                  <shadow type="colour_picker" id="m/UCzq}RoUd~+$]U]ht4">
+                    <field name="COLOUR">#ff9900</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="s4d_embed_set_title" id="Z9Mh4lnx.ReKc)Hn-${C">
+                    <value name="TITLE">
+                      <shadow type="text" id="hz]cSuD*$t7`p#+++wK*">
+                        <field name="TEXT">Join Up!</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_embed_set_desc" id="rR*s63F5QECm`zDgoy9E">
+                        <value name="DESC">
+                          <shadow type="text" id="R)@vGYIdFFbAI*L9L|33">
+                            <field name="TEXT">Some desc here...</field>
+                          </shadow>
+                          <block type="text_join" id="UISqL:2.6m9DOB(bQ9nx">
+                            <mutation items="4"></mutation>
+                            <value name="ADD0">
+                              <block type="interaction_author" id="?c79)`A:_qU;jVC,(!%g"></block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="jg_text_remake_paragraph_quotes" id="2uedpcujRDe*Eq=mf^8k">
+                                <field name="TEXT">'s deployment is beginning! Join [the server](</field>
+                              </block>
+                            </value>
+                            <value name="ADD2">
+                              <block type="options" id="@$W2Y.a/1PZ_fKH%::}h">
+                                <mutation mode="String" type="null"></mutation>
+                                <field name="SEARCH">String</field>
+                                <value name="BOOLEAN">
+                                  <block type="jg_text_remake_paragraph_quotes" id="jX;8:R;yhcAtu3_eVRln">
+                                    <field name="TEXT">profile_link</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="ADD3">
+                              <block type="jg_text_remake_paragraph_quotes" id="Of5bIOLYKD0[GgTs/PE6">
+                                <field name="TEXT">) and &lt;#1261704266540781661&gt; then head to the arsenal for briefing!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="s4d_embed_set_footer" id="D}@qOA$EIFuZ@ByCP1kJ">
+                            <value name="FOOTER">
+                              <shadow type="text" id="xFH,9.h6^S7{:PQGne7g">
+                                <field name="TEXT">Made with ♥ by 2fas</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="s4d_send_channel" id="D~OI,erd$XyJqodpu;D]">
+                <value name="CONTENT">
+                  <block type="text_join" id="pu`G@?|MQrU[}.SDW[2w">
+                    <mutation items="2"></mutation>
+                    <value name="ADD0">
+                      <block type="jg_text_remake_paragraph_quotes" id="MNots4]X#,{~MijgR45}">
+                        <field name="TEXT">&lt;@&amp;1261724615869464576&gt;</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="s4d_embed_send" id="tL(sGt!SEh`dn;sAifZo">
+                        <field name="NAME">beginDeployment</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="CHANNEL">
+                  <block type="s4d_get_channel" id="ZemLF~$iU`YJ:n1gXs#y">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="]W*u~:{NRs3kt]vfzo#]">
+                        <field name="TEXT">1261703964349431948</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_get_all" id="9DWFd5QI]Sp%UJHPf++e">
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="M.@}!{/lG~:5bw:)iTkD"></block>
+                    </value>
+                    <statement name="THEN">
+                      <block type="s4d_remove_role" id="q6TFut-A-Kd572Lm~`G]">
+                        <value name="ROLE">
+                          <block type="s4d_get_role" id=",*0umj;es8f/_/EKl.9H">
+                            <field name="SEARCH_TYPE">ID</field>
+                            <value name="VALUE">
+                              <block type="jg_text_remake_paragraph_quotes" id="+FZM^6;!u]*N%pax]0~i">
+                                <field name="TEXT">1261724615869464576</field>
+                              </block>
+                            </value>
+                            <value name="SERVER">
+                              <block type="interaction_guild" id="cSG2}P@wFA@Pd8?vOT!?"></block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="MEMBER">
+                          <shadow type="s4d_message_member" id=".a5(MoU1m,.B,B1hH20p"></shadow>
+                          <block type="s4d_get_all_member" id="B~+l}0_sWU?jyp;c_8Np"></block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="f=OZ$yYmc1gfJBBPwyap" x="0" y="3536">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="^B2?S+hv%hW6|I^p#qjC">
+        <value name="IF0">
+          <block type="logic_compare" id="W3%G5_})xV%~5Int4k$5">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="%#j~:2UIfY08Twuw~#eb"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="Njue,a^l!4R4b;*%p6zG">
+                <field name="TEXT">promote</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_if" id="0~Qwy7GA}P!-U~W-7tX;">
+            <mutation elseif="4"></mutation>
+            <value name="IF0">
+              <block type="s4d_has_role" id="?Y656#~j2%hFz)*[LPk-">
+                <comment pinned="false" h="80" w="160">recruit --&gt; jo</comment>
+                <value name="MEMBER">
+                  <block type="options" id="JwJDT4C:JKAdUQhrZviR">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="]SG2ks-r(~j%xJSUp],4">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="DQuD2b7jEJdql7G3HQF;">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="D!/AJi@acgnXM^ZttoOh">
+                        <field name="TEXT">1261700836594290809</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="D9jg,cB(Q4UPbC1]=*X,"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="s4d_remove_role" id="(fT[fa!JjRj@VSsYd#hb">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="+wU){GaRXm7$_yi]G$Dc">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="G$iNL)-4uy2B6{ij6NWy">
+                        <field name="TEXT">1261700836594290809</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="0hB}Zhg^y;.|zThiScyc"></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="UxH-SQGAZRI~R?R|bITo">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="$HTwh;ccHB#3ZC%/bnD7">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="*#[kF_CV@be_#.-p%:Pd">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id=";Kyflh.=70a24P|cnapX">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="E(`PQpyN^*Y.6TycIRL{">
+                            <field name="TEXT">1261700939501404160</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="$]=3GOlt~Hmlg_$r?0k/"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id="3uz_O9}MSW`TH?eN7:1f">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="zS;k3qL7l5HBenCgRoR7">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="s4d_has_role" id="TfmMAcpUz`}ai?#[tDHE">
+                <comment pinned="false" h="80" w="160">jo --&gt; operative</comment>
+                <value name="MEMBER">
+                  <block type="options" id="F)a8@UsuL~Twky94|]Hg">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="/{10PSigWuS=NFc/HD*S">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="yz7#zy={-hOp?{b52?r/">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="+.5lv#y1Fppjv|y*OD_T">
+                        <field name="TEXT">1261700939501404160</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="EOl!k}yDP;Mf]lVPyynz"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="s4d_remove_role" id="Mod(j?y1fN+2p=0`y,sW">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="wwL-j)dAb!5Yo}xUcJ~x">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="jCrju,?x-YHbal^YNlHf">
+                        <field name="TEXT">1261700939501404160</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="t;eu3Q]RU}sv3C!S_+JQ"></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="!RD8:PzT0OL%4gVfxQwf">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="P#eD5,6$rb?10kuqCB)-">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="?4Uu(_5C[csdQ*6r4%Ww">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id=";Kd%A[Sm6mms9W0:{O~.">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id=",=m3DX.pQi5i@($]8R!5">
+                            <field name="TEXT">1261701086084075541</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="rMyjjz]jT7xQ!4DX+/mb"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id="`W.6uySgPSA}@qLgD;hN">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="H_3?0p#o[fCW=VkDK@Qt">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF2">
+              <block type="s4d_has_role" id="84$6`0y?X9SX$V!Qq%b4">
+                <comment pinned="false" h="80" w="160">operative --&gt; lt</comment>
+                <value name="MEMBER">
+                  <block type="options" id="2pY.pjImLf^7+bJt|aQ[">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="8uTcc,UkTZ?N^j;jhSWp">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id=")u86aB(qb^ua7_DVz=})">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="3Rs:X#(o#9pL^%ne;xbm">
+                        <field name="TEXT">1261701086084075541</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="-anZE*!d5DsQro7HPvgQ"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO2">
+              <block type="s4d_remove_role" id="^3nCiyG(t$x?5si!NEqb">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="1VA6Y:5WIe3PZIX.0sdw">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="U6^yhIF.DQ3dsYKO*c3S">
+                        <field name="TEXT">1261701086084075541</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="2pJp{O^pRuCp1FvpDYrS"></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="`,t}+$+=KKoB^PT@#_-O">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="aoEE^~wsyS/k883/2cQs">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="$-jK,0D=D:Ph+F!L`dk~">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id="tcJ1qCOyB^rt`TVd^]eh">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="JW+h3wtq,m%^W+DLvGIx">
+                            <field name="TEXT">1261701131013460021</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="ZCL$4/S[nH-$3O`:%CPL"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id="OOVEN:_2EGJFPl?6}M|b">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="),DDPc14Cp8$1!9n[AR!">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF3">
+              <block type="s4d_has_role" id="IUlTA|i(CRab*(a@Hv{3">
+                <comment pinned="false" h="80" w="160">lt --&gt; sl</comment>
+                <value name="MEMBER">
+                  <block type="options" id="e:Bp?6p^k8Y}Ms4)0h/f">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="W9tl-JEmv+.%la.7Kd0x">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="$AMnJM#:abpl7Z@+uW]H">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="LA9e5(LYtS}X`yLdlb9$">
+                        <field name="TEXT">1261701131013460021</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="xXh]i5n%,uh}n1LPcCiT"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO3">
+              <block type="s4d_remove_role" id="DpK9wy*zTX/T/$!sW.bK">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="fWbigVW#E$U^I;Jw6sQ{">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="=.J)bI{gc)beSn#:DpvQ">
+                        <field name="TEXT">1261701131013460021</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="v~U3/_`j2n:gKF-{eub5"></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="o;,p^AeldGL7+jvRl}=-">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="s1{b(Hlp@ZIpPOG]g%}E">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="OlqYTO,fwHAUw@%h;0Vs">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id="4TR6n8*CrWM#tCsgq2Z4">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="7CU9xv_~sT8$i!e.v@`x">
+                            <field name="TEXT">1261701304019849367</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="zXu8h.o2^,~!ovo|2Z1d"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id="PYz~.OZPGAt]nm~o6{7W">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="ZZzj3cYFKr=5Z7k0I7Jb">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF4">
+              <block type="s4d_has_role" id="gmh3z;{4.;1Jl_|g(iZU">
+                <comment pinned="false" h="80" w="160">sl --&gt; error</comment>
+                <value name="MEMBER">
+                  <block type="options" id="rDH+!7-cbzHsv!YXnAv3">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="z(Fi,$k?-90x#Y_d)Blj">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="nKkC!v/8:T6RzDQ?Z}S7">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="dQ=@0ap}ER2tw{)t+=dk">
+                        <field name="TEXT">1261701304019849367</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="I#$L3pt5lmej{KTcu!Tq"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO4">
+              <block type="s4d_embed_create" id="0CZ-.1n/c69#EDDkUg0C">
+                <field name="NAME">error1</field>
+                <statement name="THEN">
+                  <block type="s4d_embed_set_color" id="Ri$0d$JY3-^U#41a]PBe">
+                    <value name="COLOUR">
+                      <shadow type="colour_picker" id="W(3uLMW#ia4w:qR*`{=-">
+                        <field name="COLOUR">#ff0000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_embed_set_title" id="x;JD:*`3y~r!fNp/Q%Oq">
+                        <value name="TITLE">
+                          <shadow type="text" id="NSt0-~4kSVXRiB1XDT5B">
+                            <field name="TEXT">Error</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="s4d_embed_set_desc" id="yu1w2Id^9/H65GpQ2Up#">
+                            <value name="DESC">
+                              <shadow type="text" id="F0viOm7;C.vt%A)QB1O~">
+                                <field name="TEXT">This user is at the max low rank. You must use `/promotehr` to promote this user.</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="slash_reply" id=";ja0/tk)7|NBg0}R=1t|">
+                    <value name="CONTENT">
+                      <block type="s4d_embed_send" id="HQo_xdB^n9}Vn}dW+YO=">
+                        <field name="NAME">error1</field>
+                      </block>
+                    </value>
+                    <value name="BOOLEAN">
+                      <block type="logic_boolean" id="$@xF|Q6]ULcddQ1NHYRJ">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="P3O.KdHvV~Tip[uw$lim" x="0" y="6416">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="+(EE:fI`.kWTqr)GiISe">
+        <value name="IF0">
+          <block type="logic_compare" id="Eed.CpWZZi5ktN9ho?Xc">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="rn(8W^34xyajJ}LvEF;#"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="bwv$=F0c%uOcAwQXm-|.">
+                <field name="TEXT">promotehr</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_if" id="i#J0JxK0al0^XCR9a;-c">
+            <mutation elseif="2"></mutation>
+            <value name="IF0">
+              <block type="s4d_has_role" id="m@-sQ0FLa$GY0ATH0uN8">
+                <comment pinned="false" h="80" w="160">sl --&gt; co</comment>
+                <value name="MEMBER">
+                  <block type="options" id="}B@oLB.)hy~l.x1EM0F[">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="Br{^YG,Kf02fBW#PZLEw">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="3Kcs~58+:~jZbiCXv#3Y">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="hf4=]9sZzYjF9rGSGNE2">
+                        <field name="TEXT">1261701304019849367</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="|3RnW_V[1gg-k_NkO=@m"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="s4d_remove_role" id="EhpKUgXJ-A^;M.W7%5g1">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="Ko^z~oyjL7J~O7@m?(Vi">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="0olbJ?3$_FP37..B|qG2">
+                        <field name="TEXT">1261701304019849367</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="T@|~6GZ~z]{GVVR{N5K("></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="mh]I;_hWUc^bnrUdjT#z">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="#f^2FM@`Gp5R_d0Jg-#T">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="=${ChBKS6z~ND^qY.Aa2">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id="B,80kd,ZXM:Ju98m!o@o">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="ljPcw4#!s2/E4OC;dL*1">
+                            <field name="TEXT">1261701495389421661</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="IoTtA.Ao]m:cwULyH2.~"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id=",[||Tc0A4K9;T/K{.oQO">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="POR$Dt4Wh#I]aTD2~C($">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="s4d_has_role" id="HT.%5t^,eO2sV%_X5_~j">
+                <comment pinned="false" h="80" w="160">co --&gt; commander</comment>
+                <value name="MEMBER">
+                  <block type="options" id="s{9^YQoZ+yZpn|bdx!.b">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="+UKj:N8OA}9KM{l-Y=fn">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="125{!52f]25|^Kpj[|;~">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="Zw/R@O*iU/h?q^4ON)$c">
+                        <field name="TEXT">1261701495389421661</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="?H8aj6}v+r!y2gTloe5`"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="s4d_remove_role" id="x)XO}-0aZ[UP=E6A530r">
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="$LE=b7%]OJ{~]PV#b[;`">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="aAAx0E]FIvY$@?NM6~u:">
+                        <field name="TEXT">1261701495389421661</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id="zTba8C.#VsSyhI}[1uv!"></block>
+                    </value>
+                  </block>
+                </value>
+                <value name="MEMBER">
+                  <shadow type="s4d_message_member" id="zpEJI54MszD9x*.6!_L#"></shadow>
+                  <block type="options" id="E}8VS|54W4TW?j-TBLc8">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="!0-,1zxh{M/{u]I=|!n)">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_add_role" id="R.*Qg;.[.]:t_zes4Vsi">
+                    <value name="ROLE">
+                      <block type="s4d_get_role" id="Ya)8dFKbIMkNpPwE9%yv">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="HYN0^C@s#z4+znsqSbV9">
+                            <field name="TEXT">1261701666898706474</field>
+                          </block>
+                        </value>
+                        <value name="SERVER">
+                          <block type="interaction_guild" id="g].BUXCS%2,F8=g]~7wE"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="MEMBER">
+                      <shadow type="s4d_message_member" id="jA$0!xoLL1T9J)ZPV2aX"></shadow>
+                      <block type="options" id="F,1`p*j(PjHJrF8OZ`v4">
+                        <mutation mode="Member" type="null"></mutation>
+                        <field name="SEARCH">Member</field>
+                        <value name="BOOLEAN">
+                          <block type="jg_text_remake_paragraph_quotes" id="qQ2%9Eg=kDMw@g,;W5e9">
+                            <field name="TEXT">user</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF2">
+              <block type="s4d_has_role" id="Nrcr}kG(3UZ-HksjFoUt">
+                <comment pinned="false" h="80" w="160">commander --&gt; error</comment>
+                <value name="MEMBER">
+                  <block type="options" id=";UsJj8B}]-f}:5e.@9rM">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="Th{KIQS|!Na9a]|_+*/T">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ROLE">
+                  <block type="s4d_get_role" id="AW;,Vhf,zkk_LuLN3]Gk">
+                    <field name="SEARCH_TYPE">ID</field>
+                    <value name="VALUE">
+                      <block type="jg_text_remake_paragraph_quotes" id="x`fcF*Gl#G*:R!ZTw6(X">
+                        <field name="TEXT">1261701666898706474</field>
+                      </block>
+                    </value>
+                    <value name="SERVER">
+                      <block type="interaction_guild" id=";h|t@K5V_g*slxiO=ZpX"></block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO2">
+              <block type="s4d_embed_create" id="VtB}E[MzM]FBvJyzW~sK">
+                <field name="NAME">error2</field>
+                <statement name="THEN">
+                  <block type="s4d_embed_set_color" id="MVVj.Z7OLqY|4TL}~3$J">
+                    <value name="COLOUR">
+                      <shadow type="colour_picker" id="-znc]4G)D:*=87AD4#KD">
+                        <field name="COLOUR">#ff0000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_embed_set_title" id="Xi58Zj^so?OvN;}mUvid">
+                        <value name="TITLE">
+                          <shadow type="text" id=";bPX1]VkPHRPoeW-W~[9">
+                            <field name="TEXT">Error</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="s4d_embed_set_desc" id="q-;8(|,3(d|#%]L=_-?S">
+                            <value name="DESC">
+                              <shadow type="text" id=";)z,rCKVCNHh{rVBCYyS">
+                                <field name="TEXT">This user is at the max high rank. You may not promote this user.</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="slash_reply" id="yR`FzI;EJ%2kNM[QGam9">
+                    <value name="CONTENT">
+                      <block type="s4d_embed_send" id="P[)vQX{M{?}@+[ISTTu!">
+                        <field name="NAME">error2</field>
+                      </block>
+                    </value>
+                    <value name="BOOLEAN">
+                      <block type="logic_boolean" id="r6#:[rst{RfQjlZ#0^YP">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="[uOSaKBgKf|^N[OBtz=3" x="0" y="8264">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="ZbvPG*r]ckS3yMhcF)Sq">
+        <value name="IF0">
+          <block type="logic_compare" id="V/8*d}%@k3V_(=Gs#/wv">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="^k1;NBu+clVljAdl67?}"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="V*Zh+/=zAY3`TH%9sEbr">
+                <field name="TEXT">infract</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="$@{}S!buJn6M25v2#Hol">
+            <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+            <value name="VALUE">
+              <block type="options" id="O;5%8:xHBM4/5?7[*W1G">
+                <mutation mode="String" type="null"></mutation>
+                <field name="SEARCH">String</field>
+                <value name="BOOLEAN">
+                  <block type="jg_text_remake_paragraph_quotes" id="Hm#:Qur5p8j,/M/}*M)8">
+                    <field name="TEXT">type</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="U@d{?1NH^cL?[.wv!(6s">
+                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                <value name="VALUE">
+                  <block type="options" id="bM`nfLw~lxfPcm+Se);.">
+                    <mutation mode="Member" type="null"></mutation>
+                    <field name="SEARCH">Member</field>
+                    <value name="BOOLEAN">
+                      <block type="jg_text_remake_paragraph_quotes" id="i=KRapgty{n^FiNqSxDb">
+                        <field name="TEXT">user</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="make_ahq_modal" id="D_Nc^{b)uxh2{m?*epM)">
+                    <value name="button name">
+                      <block type="jg_text_remake_paragraph_quotes" id="Gd,)iyx1e/1$C[l:jQ]D">
+                        <field name="TEXT">infractionIssue</field>
+                      </block>
+                    </value>
+                    <value name="title">
+                      <block type="jg_text_remake_paragraph_quotes" id="@%i`sfdlSN{qV0n@EkXG">
+                        <field name="TEXT">Infraction Menu</field>
+                      </block>
+                    </value>
+                    <value name="id">
+                      <block type="jg_text_remake_paragraph_quotes" id="e!!!wli:_xdo~~N)}/[p">
+                        <field name="TEXT">infractionIssue</field>
+                      </block>
+                    </value>
+                    <statement name="STATEMENTS">
+                      <block type="make_ahq_modal_text" id=";!_r}yfDuTBi3YAI~gS7">
+                        <mutation xmlns="http://www.w3.org/1999/xhtml" id_a="true" label_a="true" style_a="true" minimum_size="true" required="true"></mutation>
+                        <value name="ID_A">
+                          <block type="jg_text_remake_paragraph_quotes" id="LvhG!Jph0nt$tuM;Gg!:">
+                            <field name="TEXT">reason</field>
+                          </block>
+                        </value>
+                        <value name="LABEL_A">
+                          <block type="jg_text_remake_paragraph_quotes" id="L0u!7mH}AHDq2YM02Sm[">
+                            <field name="TEXT">Reason</field>
+                          </block>
+                        </value>
+                        <value name="STYLE_A">
+                          <block type="style_ahq_modal" id=".m#E5gh`0?[GPUGVU~In">
+                            <field name="Label">'LONG'</field>
+                          </block>
+                        </value>
+                        <value name="MINIMUM_SIZE">
+                          <block type="math_number" id="8B3iwYY8lT16Rr+6:{I!">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
+                        <value name="REQUIRED">
+                          <block type="logic_boolean" id="{0a..$Oi^p,G^eU6QH,X">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="make_ahq_modal_text" id="Cj.s99+M,uNwIVRoEO,9">
+                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_a="true" label_a="true" style_a="true" minimum_size="true" required="true"></mutation>
+                            <value name="ID_A">
+                              <block type="jg_text_remake_paragraph_quotes" id="y7Yx1)iv2q@VbZ)O#_{e">
+                                <field name="TEXT">appealable</field>
+                              </block>
+                            </value>
+                            <value name="LABEL_A">
+                              <block type="jg_text_remake_paragraph_quotes" id="4KP_5.CUCK])#9!+u#v=">
+                                <field name="TEXT">Appealable?</field>
+                              </block>
+                            </value>
+                            <value name="STYLE_A">
+                              <block type="style_ahq_modal" id="(}@[yfSscpwj[P1((Q}q">
+                                <field name="Label">'SHORT'</field>
+                              </block>
+                            </value>
+                            <value name="MINIMUM_SIZE">
+                              <block type="math_number" id="KD%;bh4R8le^j5Jb8fKn">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                            <value name="MAXIMUM_SIZE">
+                              <block type="math_number" id="^N88szSQ[]^28[f}iP:t">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                            <value name="PLACE_HOLDER">
+                              <block type="jg_text_remake_paragraph_quotes" id="R7D7FpEA1U]2$B.p%^,d">
+                                <field name="TEXT">True or false.</field>
+                              </block>
+                            </value>
+                            <value name="REQUIRED">
+                              <block type="logic_boolean" id="EbTzEAs8J5^?xBF9SM#F">
+                                <field name="BOOL">TRUE</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="make_ahq_modal_text" id="$cAb5++LDk3?c.w.#INr">
+                                <mutation xmlns="http://www.w3.org/1999/xhtml" id_a="true" label_a="true" style_a="true" minimum_size="true" required="true"></mutation>
+                                <value name="ID_A">
+                                  <block type="jg_text_remake_paragraph_quotes" id="xL*7tXbf+S?u4b_I=}:W">
+                                    <field name="TEXT">notes</field>
+                                  </block>
+                                </value>
+                                <value name="LABEL_A">
+                                  <block type="jg_text_remake_paragraph_quotes" id="~DTt2M@?{vrr]L?MGd+Z">
+                                    <field name="TEXT">Notes</field>
+                                  </block>
+                                </value>
+                                <value name="STYLE_A">
+                                  <block type="style_ahq_modal" id="n{AT*dU~.c8FulcSvZ0d">
+                                    <field name="Label">'SHORT'</field>
+                                  </block>
+                                </value>
+                                <value name="MINIMUM_SIZE">
+                                  <block type="math_number" id="65rb`[|(jOkd59S8jI.#">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                                <value name="MAXIMUM_SIZE">
+                                  <block type="math_number" id="hIuCRYvYhdD[du0t-n4@">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                                <value name="REQUIRED">
+                                  <block type="logic_boolean" id="BPrHyc_~{X*l2S;:AK^w">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="snd_ahq_modal" id="[Ru3XsCvbavkH-IH;|u1">
+                        <field name="Label">interaction</field>
+                        <value name="form">
+                          <block type="gsa_bypass_type" id="IE:T[JG|;M~HP4jEJm=x">
+                            <value name="path">
+                              <block type="jg_text_remake_paragraph_quotes" id="BCuaWRi@M~;:Oj|c!pQM">
+                                <field name="TEXT">infractionIssue</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="on_real_form" id="1am~!(nc0TjM=aV0kG%8" x="0" y="9822">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="/-gdQV}GIr0CT$h{7Plb">
+        <value name="IF0">
+          <block type="logic_compare" id="3`[TZ9Ij]Cma0H$B%oo?">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="id_form_ahq" id="i2G!GCVz4EX|I`{{s=@v"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id="^y}nR+FlJ%Z/h7tN+bOT">
+                <field name="TEXT">infractionIssue</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_if" id="*b+Q(qveJ;Yuv9QjV1V`">
+            <mutation elseif="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="p3*`t4M/RmGeyNOJkke(">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="text_changeCase" id="vE;$3FGm9FLjr}AIMuk5">
+                    <field name="CASE">LOWERCASE</field>
+                    <value name="TEXT">
+                      <shadow type="text" id="7bU#-pGXPbeE%*w{U/sx">
+                        <field name="TEXT">abc</field>
+                      </shadow>
+                      <block type="id_textbox_ahq" id="O2%,H+r%P|#9pi[/i@62">
+                        <value name="id">
+                          <block type="jg_text_remake_paragraph_quotes" id="DnA|!0d:oNe;Q^=7{x0C">
+                            <field name="TEXT">appealable</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="jg_text_remake_paragraph_quotes" id="?0Z}`ebDq(IFK~Kz~F)J">
+                    <field name="TEXT">true</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="2UzpXWu?a4@6;/b_n#VO">
+                <field name="VAR" id="0--#s!P!_-ZlcL~^Rz#.">appealable</field>
+                <value name="VALUE">
+                  <block type="jg_text_remake_paragraph_quotes" id="LkpFUz]7rrp_r.]#6.rM">
+                    <field name="TEXT">✅</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="logic_compare" id="2~VVn]_[=+JPYEW`bZkp">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="text_changeCase" id="}}S=NEp2Di9dwxu]:~q;">
+                    <field name="CASE">LOWERCASE</field>
+                    <value name="TEXT">
+                      <shadow type="text" id="7bU#-pGXPbeE%*w{U/sx">
+                        <field name="TEXT">abc</field>
+                      </shadow>
+                      <block type="id_textbox_ahq" id="tdU1*!ncNs8Co[@e2=OM">
+                        <value name="id">
+                          <block type="jg_text_remake_paragraph_quotes" id=";L`B=l6#2X(`WlwQvSA}">
+                            <field name="TEXT">appealable</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="jg_text_remake_paragraph_quotes" id="+;Sm(]oTeyw;DuA/2`7(">
+                    <field name="TEXT">false</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="variables_set" id="Yd9uN;l2+=a}S;Q$i4Z9">
+                <field name="VAR" id="0--#s!P!_-ZlcL~^Rz#.">appealable</field>
+                <value name="VALUE">
+                  <block type="jg_text_remake_paragraph_quotes" id="sSsqnArihiW$m-pW@iAu">
+                    <field name="TEXT">❌</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="s4d_embed_create" id="M?fn=IiI=1I_u4FTK$!$">
+                <field name="NAME">infraction</field>
+                <statement name="THEN">
+                  <block type="s4d_embed_set_color" id="+V$DQ]p#UyO|+0mK7xTN">
+                    <value name="COLOUR">
+                      <shadow type="colour_picker" id="$(Q}n3vr]~t~*p9Bon;W">
+                        <field name="COLOUR">#ff0000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_embed_set_title" id="@g_ugM,gol2;B6iwGsEZ">
+                        <value name="TITLE">
+                          <shadow type="text" id="`$FFIa{UEUY?)`dq2SVj">
+                            <field name="TEXT">Infraction</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="s4d_embed_set_desc" id="{^;?v:XA@S9$e7CB)hI1">
+                            <value name="DESC">
+                              <shadow type="text" id="LycN2WS]68/Vh$_;-#H~">
+                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:**</field>
+                              </shadow>
+                              <block type="text_join" id="}fA!*PxN:^6zzv,r,!@d">
+                                <mutation items="14"></mutation>
+                                <value name="ADD0">
+                                  <block type="jg_text_remake_paragraph_quotes" id="~z7$TgZ4lT/8IizH7MvC">
+                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:** </field>
+                                  </block>
+                                </value>
+                                <value name="ADD1">
+                                  <block type="variables_get" id="OZokP7Mg=,b`9w0Rd=Er">
+                                    <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                  </block>
+                                </value>
+                                <value name="ADD2">
+                                  <block type="s4d_newline" id="?J!K#VcIhp8ZZ4|[)[[7"></block>
+                                </value>
+                                <value name="ADD3">
+                                  <block type="jg_text_remake_paragraph_quotes" id="rog}5a8$5G#hb3NDjV.3">
+                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Type:** </field>
+                                  </block>
+                                </value>
+                                <value name="ADD4">
+                                  <block type="variables_get" id="Nl)Y+z^Ds($Y?Brzl0TT">
+                                    <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+                                  </block>
+                                </value>
+                                <value name="ADD5">
+                                  <block type="s4d_newline" id="`@!}`1*)@|)!FU~]s`nB"></block>
+                                </value>
+                                <value name="ADD6">
+                                  <block type="jg_text_remake_paragraph_quotes" id="zany.x-%x=2Q}yIo@mGa">
+                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Reason:** </field>
+                                  </block>
+                                </value>
+                                <value name="ADD7">
+                                  <block type="id_textbox_ahq" id="j2Q?/tWOQ.NI|SVKspLl">
+                                    <value name="id">
+                                      <block type="jg_text_remake_paragraph_quotes" id="wnhq]1vIf`Gnhr`$.:Sd">
+                                        <field name="TEXT">reason</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="ADD8">
+                                  <block type="s4d_newline" id="%?Ke~chvZ)(Ja5yl]}%R"></block>
+                                </value>
+                                <value name="ADD9">
+                                  <block type="jg_text_remake_paragraph_quotes" id="g/t@R|o6jP#2e+^D(+9$">
+                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Notes:** </field>
+                                  </block>
+                                </value>
+                                <value name="ADD10">
+                                  <block type="id_textbox_ahq" id="~#xacwNEBYsrl`ZMlxMZ">
+                                    <value name="id">
+                                      <block type="jg_text_remake_paragraph_quotes" id="IeKk{TTG!a+#}ZQ9p$Tz">
+                                        <field name="TEXT">notes</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="ADD11">
+                                  <block type="s4d_newline" id="6MvBFm,;TbvR2{Ad9};T"></block>
+                                </value>
+                                <value name="ADD12">
+                                  <block type="jg_text_remake_paragraph_quotes" id="!:bGyD]oYaqq@.?sZjSk">
+                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Appealable:** </field>
+                                  </block>
+                                </value>
+                                <value name="ADD13">
+                                  <block type="variables_get" id="HVxtiBph2(hTxH}k]AaP">
+                                    <field name="VAR" id="0--#s!P!_-ZlcL~^Rz#.">appealable</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="s4d_embed_set_footer" id="qOjgwQ(]4PDIHU+|mnPL">
+                                <value name="FOOTER">
+                                  <shadow type="text" id="a?$8Fc5x5%KzQ51FsJJu">
+                                    <field name="TEXT">Some footer text here...</field>
+                                  </shadow>
+                                  <block type="text_join" id="eZ3sDaC9%e,/BP4P0~?%">
+                                    <mutation items="3"></mutation>
+                                    <value name="ADD0">
+                                      <block type="jg_text_remake_paragraph_quotes" id="c:;e[@b`]*M`cxO/tip|">
+                                        <field name="TEXT">Issued by </field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD1">
+                                      <block type="clkr_form_ahq" id="=#RP8sU}l/v.8XABY)0e"></block>
+                                    </value>
+                                    <value name="ADD2">
+                                      <block type="jg_text_remake_paragraph_quotes" id="PZO]i`jSh*kCsQML4l5v">
+                                        <field name="TEXT">.</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="s4d_send_channel" id="c[lGf)IO^EyXf$Ib@(Ku">
+                    <value name="CONTENT">
+                      <block type="s4d_embed_send" id="rO+1mHm+$s;/wlGe,=g/">
+                        <field name="NAME">infraction</field>
+                      </block>
+                    </value>
+                    <value name="CHANNEL">
+                      <block type="s4d_get_channel" id="b3}+1aPEM8i8W[p]h`v*">
+                        <field name="SEARCH_TYPE">ID</field>
+                        <value name="VALUE">
+                          <block type="jg_text_remake_paragraph_quotes" id="*vNSw`(jXctbD{~^Q0;.">
+                            <field name="TEXT">1261738807280275548</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="s4d_send_member" id="kZs6f{Z.Zq[98,hiRU,-">
+                        <value name="CONTENT">
+                          <block type="s4d_embed_send" id=".sXKGljH{Gj`fHp-Sc~K">
+                            <field name="NAME">infraction</field>
+                          </block>
+                        </value>
+                        <value name="MEMBER">
+                          <block type="variables_get" id="ksEUb#18F]=bEGEDeUv~">
+                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="controls_if" id="d5F-),)68yD3IK1#3}c!">
+                            <value name="IF0">
+                              <block type="logic_compare" id="C,[U(4RJ83r@c`2([KKA">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="?APD-jQaKiXm(~x~,@}{">
+                                    <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="jg_text_remake_paragraph_quotes" id="rA,wTYMTB_F)gZG[%9zL">
+                                    <field name="TEXT">Warning</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="controls_if" id="PaW%#;A?G]ktAdQi+#(?">
+                                <mutation elseif="1" else="1"></mutation>
+                                <value name="IF0">
+                                  <block type="s4d_has_role" id="$Kkz$EJC!dh$3Yok//Mt">
+                                    <value name="MEMBER">
+                                      <block type="variables_get" id="9OgH$=/UH.lPYV(NwuED">
+                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                      </block>
+                                    </value>
+                                    <value name="ROLE">
+                                      <block type="s4d_get_role" id="{D4,Z=Fcbjr)DN1*,PYW">
+                                        <field name="SEARCH_TYPE">ID</field>
+                                        <value name="VALUE">
+                                          <block type="jg_text_remake_paragraph_quotes" id="kUh^!pD_5XBsUJ3zr=N]">
+                                            <field name="TEXT">1261743649956560936</field>
+                                          </block>
+                                        </value>
+                                        <value name="SERVER">
+                                          <block type="server_form_ahq" id="|m4xmqYIDl3-bj{p#33s"></block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="s4d_add_role" id=".z0,Z]Fk@t.s9rGlS/s)">
+                                    <value name="ROLE">
+                                      <block type="s4d_get_role" id="cKsb4UJ9MniKQSb$aZd2">
+                                        <field name="SEARCH_TYPE">ID</field>
+                                        <value name="VALUE">
+                                          <block type="jg_text_remake_paragraph_quotes" id="Jbg/]8@HS~hLDs6/y`-L">
+                                            <field name="TEXT">1261743675201949796</field>
+                                          </block>
+                                        </value>
+                                        <value name="SERVER">
+                                          <block type="server_form_ahq" id="@vf`0;yadU{=Uc~U{QE7"></block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="MEMBER">
+                                      <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                      <block type="variables_get" id="*qb}Pim0;I,9y6T0h!xU">
+                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </statement>
+                                <value name="IF1">
+                                  <block type="s4d_has_role" id="jNQ@hm,{(ciq7)3}5*mg">
+                                    <value name="MEMBER">
+                                      <block type="variables_get" id="ppQ-fy7CiR;Tz`X=T5c!">
+                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                      </block>
+                                    </value>
+                                    <value name="ROLE">
+                                      <block type="s4d_get_role" id=".nbgTlH$T9zGw(w0It7l">
+                                        <field name="SEARCH_TYPE">ID</field>
+                                        <value name="VALUE">
+                                          <block type="jg_text_remake_paragraph_quotes" id="fRPO1yummldx~S@Sp[r6">
+                                            <field name="TEXT">1261743675201949796</field>
+                                          </block>
+                                        </value>
+                                        <value name="SERVER">
+                                          <block type="server_form_ahq" id="L]jbr5wJ1!z,R5v!vPd@"></block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO1">
+                                  <block type="s4d_embed_create" id="S#w;*TK$=^jwc}~!br^e">
+                                    <field name="NAME">autostrike</field>
+                                    <statement name="THEN">
+                                      <block type="s4d_embed_set_color" id="t,0wtbhEE;VQb^PmFcpl">
+                                        <value name="COLOUR">
+                                          <shadow type="colour_picker" id="LX3(P7VjDwd~M1fT2Y)W">
+                                            <field name="COLOUR">#ff0000</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="s4d_embed_set_title" id="fEgs{-$m$7]^fiO$[jeF">
+                                            <value name="TITLE">
+                                              <shadow type="text" id="8tC{F20hM:##e/}TMVN|">
+                                                <field name="TEXT">Infraction</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_embed_set_desc" id="U]Jle9c.e|ulCtU,sdf-">
+                                                <value name="DESC">
+                                                  <shadow type="text" id="LycN2WS]68/Vh$_;-#H~">
+                                                    <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:**</field>
+                                                  </shadow>
+                                                  <block type="text_join" id="3*nOwfr5|kSJj}/l.z{}">
+                                                    <mutation items="10"></mutation>
+                                                    <value name="ADD0">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="znZ[;u=k:H[M`|dB,mvp">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:** </field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD1">
+                                                      <block type="variables_get" id=".X/,!Jj#~q{N.]r:VvX_">
+                                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD2">
+                                                      <block type="s4d_newline" id="oS_P$4Vy.)i+AKRHS4sL"></block>
+                                                    </value>
+                                                    <value name="ADD3">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="[ZR;qQn-5sqm*ZH+.FlI">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Type:** Strike</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD4">
+                                                      <block type="s4d_newline" id="FsgWqafv}lyOCvjKu^z("></block>
+                                                    </value>
+                                                    <value name="ADD5">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="T4cbV*_t1#jTfRl^jw:v">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Reason:** Reached three warnings.</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD6">
+                                                      <block type="s4d_newline" id="9hBXxF;zvnnn}CTlJtUw"></block>
+                                                    </value>
+                                                    <value name="ADD7">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="siuV}6i2I:)8#n%UbtO;">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Notes:** This action was performed automatically.</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD8">
+                                                      <block type="s4d_newline" id="No4UEOGDCNRR_T3N`f;?"></block>
+                                                    </value>
+                                                    <value name="ADD9">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="qhM)r2H/rJd6VG!ysn1{">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Appealable:** Appeal your most recent warning and this infraction will automatically be removed.</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="s4d_embed_set_footer" id="?(q8;HYr.y|J+/^:p7.X">
+                                                    <value name="FOOTER">
+                                                      <shadow type="text" id="a?$8Fc5x5%KzQ51FsJJu">
+                                                        <field name="TEXT">Issued by Eclipse.</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="s4d_send_channel" id="OnMhUyO(bsGq5xm9s%wV">
+                                        <value name="CONTENT">
+                                          <block type="s4d_embed_send" id="h+w/Y/|;!fd^j1Y_6~?7">
+                                            <field name="NAME">autostrike</field>
+                                          </block>
+                                        </value>
+                                        <value name="CHANNEL">
+                                          <block type="s4d_get_channel" id="HjR[cg3=?/d`D7%LkJGJ">
+                                            <field name="SEARCH_TYPE">ID</field>
+                                            <value name="VALUE">
+                                              <block type="jg_text_remake_paragraph_quotes" id="-lyT;=H2`mVIdLb=@igL">
+                                                <field name="TEXT">1261738807280275548</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="s4d_send_member" id="=*7_bUf59!-s/};L~xYh">
+                                            <value name="CONTENT">
+                                              <block type="s4d_embed_send" id="a+C;we(H7U-CF|A.mAQw">
+                                                <field name="NAME">autostrike</field>
+                                              </block>
+                                            </value>
+                                            <value name="MEMBER">
+                                              <block type="variables_get" id="*250(*]GvPD)AixkQ,|X">
+                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_remove_role" id="aCZ?l{y5uO`d~1l8E%1a">
+                                                <value name="ROLE">
+                                                  <block type="s4d_get_role" id="NMh$rH!OQWBT_mP-trKa">
+                                                    <field name="SEARCH_TYPE">ID</field>
+                                                    <value name="VALUE">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="4gVj{7oBF+DrpFZ3{u2b">
+                                                        <field name="TEXT">1261743649956560936</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="SERVER">
+                                                      <block type="server_form_ahq" id="ip}Qvsw4L:Gn2@DS;H.u"></block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="MEMBER">
+                                                  <shadow type="s4d_message_member" id="PF`Mz50Mt_%zkAdPB),A"></shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="s4d_remove_role" id="i;uK0_JV*z0s)UaVJepS">
+                                                    <value name="ROLE">
+                                                      <block type="s4d_get_role" id="d^dOphXA+YgM/?w?$]Y=">
+                                                        <field name="SEARCH_TYPE">ID</field>
+                                                        <value name="VALUE">
+                                                          <block type="jg_text_remake_paragraph_quotes" id="4M+17^~*!z@0xj]~^`xg">
+                                                            <field name="TEXT">1261743675201949796</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="SERVER">
+                                                          <block type="server_form_ahq" id="tuI7/kQu[u8P*{ZOCy,X"></block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <value name="MEMBER">
+                                                      <shadow type="s4d_message_member" id="+z.TP!Mw~aB+]9zZGc$9"></shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="controls_if" id="(mhe2qJ`*,h@RT$[qNTZ">
+                                                        <mutation elseif="1" else="1"></mutation>
+                                                        <value name="IF0">
+                                                          <block type="s4d_has_role" id="65O~j+fi@LuC4ez(:_){">
+                                                            <value name="MEMBER">
+                                                              <block type="variables_get" id="-Q8pJzNhQD{E{hQ%^)HR">
+                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ROLE">
+                                                              <block type="s4d_get_role" id="ouS81*hzRk0kp2~p#KTk">
+                                                                <field name="SEARCH_TYPE">ID</field>
+                                                                <value name="VALUE">
+                                                                  <block type="jg_text_remake_paragraph_quotes" id="sPa0+eQ|XS-Q=R$}H7ZD">
+                                                                    <field name="TEXT">1261743693258424480</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="SERVER">
+                                                                  <block type="server_form_ahq" id="3Eu-dHL(V;2sy_atTH|Q"></block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO0">
+                                                          <block type="s4d_add_role" id="*^=[eP)vF_)~g{-gs_B#">
+                                                            <value name="ROLE">
+                                                              <block type="s4d_get_role" id="(,W%Ezb!;xlv,GNRbFo0">
+                                                                <field name="SEARCH_TYPE">ID</field>
+                                                                <value name="VALUE">
+                                                                  <block type="jg_text_remake_paragraph_quotes" id="-q.eM/T1S!DOEZIS8/Zb">
+                                                                    <field name="TEXT">1261743675201949796</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="SERVER">
+                                                                  <block type="server_form_ahq" id="KdE_S=/gqzDTea|Q#CPw"></block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="MEMBER">
+                                                              <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                                              <block type="variables_get" id="~3xLhdAloAlufJZm,8*F">
+                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                        <value name="IF1">
+                                                          <block type="s4d_has_role" id="/oV$[TF!rCfR61;;VTpL">
+                                                            <value name="MEMBER">
+                                                              <block type="variables_get" id="jyDy,|gF81xlwMujzb=t">
+                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ROLE">
+                                                              <block type="s4d_get_role" id="5SA/cIdx5Q=XWOB-fPlZ">
+                                                                <field name="SEARCH_TYPE">ID</field>
+                                                                <value name="VALUE">
+                                                                  <block type="jg_text_remake_paragraph_quotes" id="l0,bjE?b2]7VH/9QhUdD">
+                                                                    <field name="TEXT">1261743675201949796</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="SERVER">
+                                                                  <block type="server_form_ahq" id="?7[*S4b6}%/RnKs6=lJ="></block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO1">
+                                                          <block type="s4d_embed_create" id="aL.!Q}`*AJg=zom3u}`3">
+                                                            <field name="NAME">autoterm</field>
+                                                            <statement name="THEN">
+                                                              <block type="s4d_embed_set_color" id="}kNrEr3[o`?L6Bv$`=2`">
+                                                                <value name="COLOUR">
+                                                                  <shadow type="colour_picker" id="P|RcjvA*P#i-zY.W4MuJ">
+                                                                    <field name="COLOUR">#ff0000</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="s4d_embed_set_title" id="ooEVU40aL=?M[ccDtH-|">
+                                                                    <value name="TITLE">
+                                                                      <shadow type="text" id="%OCvT]HHD``!n2{C($F@">
+                                                                        <field name="TEXT">Infraction</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="s4d_embed_set_desc" id="=E8^;@8V+Vc*FVJNy}H|">
+                                                                        <value name="DESC">
+                                                                          <shadow type="text" id="LycN2WS]68/Vh$_;-#H~">
+                                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:**</field>
+                                                                          </shadow>
+                                                                          <block type="text_join" id="?PP#9k62n@W(Lg^SnqX%">
+                                                                            <mutation items="10"></mutation>
+                                                                            <value name="ADD0">
+                                                                              <block type="jg_text_remake_paragraph_quotes" id="5|xD7TCXOJ2K~wC?js[w">
+                                                                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:** </field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ADD1">
+                                                                              <block type="variables_get" id="_Xdzo9Vs~l^w~.,-2R=|">
+                                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ADD2">
+                                                                              <block type="s4d_newline" id="QP@4E4ye(KUvdNR:Jh9Z"></block>
+                                                                            </value>
+                                                                            <value name="ADD3">
+                                                                              <block type="jg_text_remake_paragraph_quotes" id="fFDFHn0Nqgm(D(Htu?~g">
+                                                                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Type:** Termination</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ADD4">
+                                                                              <block type="s4d_newline" id="G~odO:D}b4R{.o@BhtiF"></block>
+                                                                            </value>
+                                                                            <value name="ADD5">
+                                                                              <block type="jg_text_remake_paragraph_quotes" id="P~9h6[ECdPdm7L3xh)vJ">
+                                                                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Reason:** Reached three strikes.</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ADD6">
+                                                                              <block type="s4d_newline" id="zRtca%pKAMCA9Jc;9Fb~"></block>
+                                                                            </value>
+                                                                            <value name="ADD7">
+                                                                              <block type="jg_text_remake_paragraph_quotes" id="LcH^nNo42J`F4zjI[(eB">
+                                                                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Notes:** This action was performed automatically.</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ADD8">
+                                                                              <block type="s4d_newline" id="6UKBG`td}~oD3Je8z/@K"></block>
+                                                                            </value>
+                                                                            <value name="ADD9">
+                                                                              <block type="jg_text_remake_paragraph_quotes" id="-v{zZN7L12Qs5/.|=7AM">
+                                                                                <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Appealable:** Appeal your most recent strike and this infraction will automatically be removed.</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="s4d_embed_set_footer" id="}?K#V3Ymq6Y`dD2*^QyG">
+                                                                            <value name="FOOTER">
+                                                                              <shadow type="text" id="g4l)5QT~($~^U):}vvMo">
+                                                                                <field name="TEXT">Issued by Eclipse.</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </statement>
+                                                            <next>
+                                                              <block type="s4d_send_channel" id="BPcgU_iCKp%`Ar87I:Yu">
+                                                                <value name="CONTENT">
+                                                                  <block type="s4d_embed_send" id="[LT(i?n^Zkm$q!]T.3gm">
+                                                                    <field name="NAME">autoterm</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="CHANNEL">
+                                                                  <block type="s4d_get_channel" id="hl,Su$=o^Gd}P=Gv#Y4a">
+                                                                    <field name="SEARCH_TYPE">ID</field>
+                                                                    <value name="VALUE">
+                                                                      <block type="jg_text_remake_paragraph_quotes" id="Z=JtR#w#b)b|?k(`rg?^">
+                                                                        <field name="TEXT">1261738807280275548</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="s4d_send_member" id="aJ0MaWF5;N:jRL./xE?N">
+                                                                    <value name="CONTENT">
+                                                                      <block type="s4d_embed_send" id="Qw,JKthfa#dol*fzanh|">
+                                                                        <field name="NAME">autoterm</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="MEMBER">
+                                                                      <block type="variables_get" id="=*wbeVi8bWD+p5fixmgI">
+                                                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="jg_roles_get_all_member_roles_then_for_each_do" id="RljEr/sYVC-*f@Rncb1K">
+                                                                        <value name="MEMBER">
+                                                                          <block type="variables_get" id="?Ob4@$YOfU(gRXS42/%S">
+                                                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <statement name="STATEMENTS">
+                                                                          <block type="s4d_remove_role" id="l90cLS{$7[o|O+JhToMd">
+                                                                            <value name="ROLE">
+                                                                              <block type="jg_roles_get_all_member_roles_then_for_each_do_role" id="%t{bQ#,6/!}.eWG~P`{4"></block>
+                                                                            </value>
+                                                                            <value name="MEMBER">
+                                                                              <shadow type="s4d_message_member" id="_mf*/l;HaqQG*}W,_D%["></shadow>
+                                                                              <block type="variables_get" id="528+P1dyY`xyNrWL+l7E">
+                                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </statement>
+                                                                        <next>
+                                                                          <block type="s4d_add_role" id="Zmf[__Yt@gg1*!QY`Fs?">
+                                                                            <value name="ROLE">
+                                                                              <block type="s4d_get_role" id="VB=|G/b{x_gd@MR[5zJ)">
+                                                                                <field name="SEARCH_TYPE">ID</field>
+                                                                                <value name="VALUE">
+                                                                                  <block type="jg_text_remake_paragraph_quotes" id="$u3p7_EhgW,V^!_C!inB">
+                                                                                    <field name="TEXT">1261743754818097255</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="SERVER">
+                                                                                  <block type="server_form_ahq" id="BBg-7%kX!!VpWZ#p9lrZ"></block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="MEMBER">
+                                                                              <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                                                              <block type="variables_get" id="m$Xqgu87F(y-=4Pz6|fL">
+                                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </statement>
+                                                        <statement name="ELSE">
+                                                          <block type="s4d_add_role" id=".2/,wJ?!!J0w5F,Mpq|@">
+                                                            <value name="ROLE">
+                                                              <block type="s4d_get_role" id="IeG[#+eX-d;g*X1nU0j[">
+                                                                <field name="SEARCH_TYPE">ID</field>
+                                                                <value name="VALUE">
+                                                                  <block type="jg_text_remake_paragraph_quotes" id="_5#P/;$%?6J]^;?04/^H">
+                                                                    <field name="TEXT">1261743693258424480</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="SERVER">
+                                                                  <block type="server_form_ahq" id="fHUEgXg1{IL!:oph`?)k"></block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="MEMBER">
+                                                              <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                                              <block type="variables_get" id="yRVeb%Na]xd/9f94gCOx">
+                                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <statement name="ELSE">
+                                  <block type="s4d_add_role" id="9-EfCSzt.6|:HcJ3%x.v">
+                                    <value name="ROLE">
+                                      <block type="s4d_get_role" id="2O6Ww+F)+|iKT:)ZLrTN">
+                                        <field name="SEARCH_TYPE">ID</field>
+                                        <value name="VALUE">
+                                          <block type="jg_text_remake_paragraph_quotes" id="qrfPQH0Ibn@}f6;l+4YV">
+                                            <field name="TEXT">1261743649956560936</field>
+                                          </block>
+                                        </value>
+                                        <value name="SERVER">
+                                          <block type="server_form_ahq" id="?3m9Uh,2Mmp!Vu.}+X:s"></block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="MEMBER">
+                                      <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                      <block type="variables_get" id="$5ZZ^5mu?LO.qY2,ha1_">
+                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </statement>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="controls_if" id="+ix3b6J}UXYC6x)MlU/q">
+                                <value name="IF0">
+                                  <block type="logic_compare" id="OgyFsy~ocd1o4_,9ZR4Z">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="variables_get" id="OyDun%}*#@^wf2yDfkaG">
+                                        <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="jg_text_remake_paragraph_quotes" id="eNr#B|MEb{cwl.q+%P5p">
+                                        <field name="TEXT">Strike</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="controls_if" id="?R2y4dL?nA}=8,lzrw9{">
+                                    <mutation elseif="1" else="1"></mutation>
+                                    <value name="IF0">
+                                      <block type="s4d_has_role" id="Y/nM,6!3C1[jVI!ya+;7">
+                                        <value name="MEMBER">
+                                          <block type="variables_get" id="k(}HmM8,]U}I(@2-qWf]">
+                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                          </block>
+                                        </value>
+                                        <value name="ROLE">
+                                          <block type="s4d_get_role" id="`C92e(qv@pw$C;AZePn.">
+                                            <field name="SEARCH_TYPE">ID</field>
+                                            <value name="VALUE">
+                                              <block type="jg_text_remake_paragraph_quotes" id="6Jb4%Q:!zu^K8DP!nK/3">
+                                                <field name="TEXT">1261743693258424480</field>
+                                              </block>
+                                            </value>
+                                            <value name="SERVER">
+                                              <block type="server_form_ahq" id="KMq/Nd9Kr)_A(NT4)SVX"></block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO0">
+                                      <block type="s4d_add_role" id="z)[|blY?N|W{~c7*14/3">
+                                        <value name="ROLE">
+                                          <block type="s4d_get_role" id="dy!b6(R*D[(|u=_.83_p">
+                                            <field name="SEARCH_TYPE">ID</field>
+                                            <value name="VALUE">
+                                              <block type="jg_text_remake_paragraph_quotes" id="!8@XR:`Xs=AlB+)d3hQl">
+                                                <field name="TEXT">1261743727236354080</field>
+                                              </block>
+                                            </value>
+                                            <value name="SERVER">
+                                              <block type="server_form_ahq" id="C)90jO!hOBOz{Sr3AsT^"></block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="MEMBER">
+                                          <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                          <block type="variables_get" id=")Qgp5-MJo7ClQbh136{h">
+                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <value name="IF1">
+                                      <block type="s4d_has_role" id="{l=5jmhb4,VZi;eXV}fJ">
+                                        <value name="MEMBER">
+                                          <block type="variables_get" id="nlU3%G|OfXVq]mk@^fp+">
+                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                          </block>
+                                        </value>
+                                        <value name="ROLE">
+                                          <block type="s4d_get_role" id="fA-B#Tj2vnFE#pI|(pK~">
+                                            <field name="SEARCH_TYPE">ID</field>
+                                            <value name="VALUE">
+                                              <block type="jg_text_remake_paragraph_quotes" id="alL*D[Uh$:7Js9wT7x3i">
+                                                <field name="TEXT">1261743727236354080</field>
+                                              </block>
+                                            </value>
+                                            <value name="SERVER">
+                                              <block type="server_form_ahq" id="JPyW7h$.HGEzPauVz+-!"></block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO1">
+                                      <block type="s4d_embed_create" id="7SrAXQw0q*zJ~`N[:M(f">
+                                        <field name="NAME">autoterm</field>
+                                        <statement name="THEN">
+                                          <block type="s4d_embed_set_color" id=",V3x52fb6LQ5bi:(P/[:">
+                                            <value name="COLOUR">
+                                              <shadow type="colour_picker" id="R%!G2fDjnMY~1.]5~;Np">
+                                                <field name="COLOUR">#ff0000</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_embed_set_title" id="c$u4@pU[yOqjJvdUKI`Y">
+                                                <value name="TITLE">
+                                                  <shadow type="text" id="OnnAA1UcFe^fhHU1m,#r">
+                                                    <field name="TEXT">Infraction</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="s4d_embed_set_desc" id=",d+!gu{1B1%E=d2{b[*W">
+                                                    <value name="DESC">
+                                                      <shadow type="text" id="LycN2WS]68/Vh$_;-#H~">
+                                                        <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:**</field>
+                                                      </shadow>
+                                                      <block type="text_join" id="2Szt]8RZ@O#:?RS%AV!u">
+                                                        <mutation items="10"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="jg_text_remake_paragraph_quotes" id="67(Lj4vm_c^FDzg}:^2N">
+                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **User:** </field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD1">
+                                                          <block type="variables_get" id="IVi;u-AJT*pT=Z{=*]@H">
+                                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="s4d_newline" id="[oq$$bw(WrwG1ndSNa%6"></block>
+                                                        </value>
+                                                        <value name="ADD3">
+                                                          <block type="jg_text_remake_paragraph_quotes" id=".WJ}}_gT`/)[+@#kpK^d">
+                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Type:** Termination</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD4">
+                                                          <block type="s4d_newline" id="^VgCIY@mU#)`GAOx0wJT"></block>
+                                                        </value>
+                                                        <value name="ADD5">
+                                                          <block type="jg_text_remake_paragraph_quotes" id="Xy}li.s-Put-4;Q2#R4;">
+                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Reason:** Reached three strikes.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD6">
+                                                          <block type="s4d_newline" id="lfngBhfmqc}^Q8InQ+|."></block>
+                                                        </value>
+                                                        <value name="ADD7">
+                                                          <block type="jg_text_remake_paragraph_quotes" id="D+n,=x8Xw${w/|%Y|6mw">
+                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Notes:** This action was performed automatically.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD8">
+                                                          <block type="s4d_newline" id="6s69@GJQbs-z=}^3(jl."></block>
+                                                        </value>
+                                                        <value name="ADD9">
+                                                          <block type="jg_text_remake_paragraph_quotes" id="{NJxj4=O@KECI9xI#AR{">
+                                                            <field name="TEXT">&lt;:ed_arrow:1261710679145185300&gt; **Appealable:** Appeal your most recent strike and this infraction will automatically be removed.</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="s4d_embed_set_footer" id="dUQJvL2Cn09kH}?I~#[g">
+                                                        <value name="FOOTER">
+                                                          <shadow type="text" id="uRS5?9H=;w],7XNxnLmZ">
+                                                            <field name="TEXT">Issued by Eclipse.</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="s4d_send_channel" id="=X{gP_Xb=ioJ]]U-(F/b">
+                                            <value name="CONTENT">
+                                              <block type="s4d_embed_send" id="v[*j}y2ENX)F!n%|ZGhl">
+                                                <field name="NAME">autoterm</field>
+                                              </block>
+                                            </value>
+                                            <value name="CHANNEL">
+                                              <block type="s4d_get_channel" id="$2Ur2b`=/:0gz-R%1m#l">
+                                                <field name="SEARCH_TYPE">ID</field>
+                                                <value name="VALUE">
+                                                  <block type="jg_text_remake_paragraph_quotes" id="Y=[S+w4:LfhC|l#7[RC{">
+                                                    <field name="TEXT">1261738807280275548</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_send_member" id="!`z870S]cC)u_F00VVG/">
+                                                <value name="CONTENT">
+                                                  <block type="s4d_embed_send" id=".90qJDB`tt45Cr`P(TfU">
+                                                    <field name="NAME">autoterm</field>
+                                                  </block>
+                                                </value>
+                                                <value name="MEMBER">
+                                                  <block type="variables_get" id="~Q5lEK|B{//cuNF(97U*">
+                                                    <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="jg_roles_get_all_member_roles_then_for_each_do" id="bM^J}ytk}R2hP81:}-`k">
+                                                    <value name="MEMBER">
+                                                      <block type="variables_get" id="YHdd]WVp:c=C$+5v:un$">
+                                                        <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="STATEMENTS">
+                                                      <block type="s4d_remove_role" id="6z(YoX2Kh9dhm^fnmLqD">
+                                                        <value name="ROLE">
+                                                          <block type="jg_roles_get_all_member_roles_then_for_each_do_role" id="H7h/t[R),9d9AXJrH7lU"></block>
+                                                        </value>
+                                                        <value name="MEMBER">
+                                                          <shadow type="s4d_message_member" id="_mf*/l;HaqQG*}W,_D%["></shadow>
+                                                          <block type="variables_get" id="sY4,h%N.;i9h=8+dLvNJ">
+                                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </statement>
+                                                    <next>
+                                                      <block type="s4d_add_role" id="uKXVK+YYOj;g{t?Twwc0">
+                                                        <value name="ROLE">
+                                                          <block type="s4d_get_role" id="MP`Yp?,S.#=Idrn3CS6E">
+                                                            <field name="SEARCH_TYPE">ID</field>
+                                                            <value name="VALUE">
+                                                              <block type="jg_text_remake_paragraph_quotes" id="KaPlNt+H0T[8G}-PC19.">
+                                                                <field name="TEXT">1261743754818097255</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="SERVER">
+                                                              <block type="server_form_ahq" id="a9e9CExSzNbgq1nz:eNV"></block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="MEMBER">
+                                                          <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                                          <block type="variables_get" id="-@A1#nd*DhFjT}ELq!qk">
+                                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <statement name="ELSE">
+                                      <block type="s4d_add_role" id="c_RlzB7HsDx,}wgRfoD[">
+                                        <value name="ROLE">
+                                          <block type="s4d_get_role" id="fG@W|rWr`5D%!FhWW)TC">
+                                            <field name="SEARCH_TYPE">ID</field>
+                                            <value name="VALUE">
+                                              <block type="jg_text_remake_paragraph_quotes" id="tsgHDx5Jy^chX!M$D_Lr">
+                                                <field name="TEXT">1261743649956560936</field>
+                                              </block>
+                                            </value>
+                                            <value name="SERVER">
+                                              <block type="server_form_ahq" id="49?nv$:l2l]2JS7Ur!Nc"></block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="MEMBER">
+                                          <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                          <block type="variables_get" id="[euZ@*X]YUj(ume1];km">
+                                            <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="controls_if" id="hG9(jHEU)RH5a,?#co92">
+                                        <value name="IF0">
+                                          <block type="logic_compare" id="($|._~2CQ@qMhJJoLf[}">
+                                            <field name="OP">EQ</field>
+                                            <value name="A">
+                                              <block type="variables_get" id="|.2Cq#]=z_aFXO2i:5={">
+                                                <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="jg_text_remake_paragraph_quotes" id="%;AUIf-wN?$uF?ZRVqkB">
+                                                <field name="TEXT">Termination</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <statement name="DO0">
+                                          <block type="jg_roles_get_all_member_roles_then_for_each_do" id="m0Z5bo%+NpKjVBgS|mO!">
+                                            <value name="MEMBER">
+                                              <block type="variables_get" id="`.JKQw*/5v:pkzKG)Iac">
+                                                <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                              </block>
+                                            </value>
+                                            <statement name="STATEMENTS">
+                                              <block type="s4d_remove_role" id="o$.=%j{l[U=1kXb/Hzs^">
+                                                <value name="ROLE">
+                                                  <block type="jg_roles_get_all_member_roles_then_for_each_do_role" id="1nl(nkVg1uK.s%2yjfEU"></block>
+                                                </value>
+                                                <value name="MEMBER">
+                                                  <shadow type="s4d_message_member" id="_mf*/l;HaqQG*}W,_D%["></shadow>
+                                                  <block type="variables_get" id="wd`s2psSRcWgAA|=940#">
+                                                    <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </statement>
+                                            <next>
+                                              <block type="s4d_add_role" id="dO?zKS?U|PBgT2rZ[k6B">
+                                                <value name="ROLE">
+                                                  <block type="s4d_get_role" id="0t:LTZ}Yz56@6g|O|bp(">
+                                                    <field name="SEARCH_TYPE">ID</field>
+                                                    <value name="VALUE">
+                                                      <block type="jg_text_remake_paragraph_quotes" id="d;IE%9BO6t)AegPbhO,y">
+                                                        <field name="TEXT">1261743754818097255</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="SERVER">
+                                                      <block type="server_form_ahq" id="XTie0J^IblAWRlHumi?a"></block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="MEMBER">
+                                                  <shadow type="s4d_message_member" id="^:j6g_61LwDJVT)iQr;="></shadow>
+                                                  <block type="variables_get" id="g+;MlKO@t$|@cxG9mAJk">
+                                                    <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="controls_if" id="wXHBsKC##1k;e7]ZZacN">
+                                            <value name="IF0">
+                                              <block type="logic_compare" id="86vxi{o1pEcwN{dWy$Ti">
+                                                <field name="OP">EQ</field>
+                                                <value name="A">
+                                                  <block type="variables_get" id="_*^fb[Bizmf/M}m%|RQR">
+                                                    <field name="VAR" id="B*[/2RM4yz*t*?5#yUaA">infractionType</field>
+                                                  </block>
+                                                </value>
+                                                <value name="B">
+                                                  <block type="jg_text_remake_paragraph_quotes" id="@geC.5}k1-RLe(LN5@=v">
+                                                    <field name="TEXT">Blacklist</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <statement name="DO0">
+                                              <block type="s4d_ban_member" id="7NVm[CNuywG72[KY2gq|">
+                                                <value name="MEMBER">
+                                                  <block type="variables_get" id="7j.?NWpt%05WV.Fkw5{L">
+                                                    <field name="VAR" id="dTX.$fqc;}h8j%aaavI@">infractionUser</field>
+                                                  </block>
+                                                </value>
+                                                <value name="STRING">
+                                                  <block type="jg_text_remake_paragraph_quotes" id="pLA,45of)AOhAKkai_AY">
+                                                    <field name="TEXT">Blacklisted.</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
