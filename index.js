@@ -90,7 +90,7 @@
     var infractionType, infractionUser, appealable;
     
     
-    await s4d.client.login('MTI2MTY3MzM0MTYzOTU5NDA2OA.GnE3PT.tQXSjuhKZdpDFyQqwwBOu3Xe5So8GDMW5dm21M').catch((e) => {
+    await s4d.client.login('you thought').catch((e) => {
             const tokenInvalid = true;
             const tokenError = e;
             if (e.toString().toLowerCase().includes("token")) {
